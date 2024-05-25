@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: white;
+}
+
+.parent {
+  background-color: silver;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.child {
+  background-color: red;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+}

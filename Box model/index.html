@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #parent > div {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+      }
+      #parent2 > span {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        display: inline-block;
+      }
+
+      #span1 {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Model</h1>
+    <div id="parent">
+      <div id="box1">1</div>
+      <div id="box2">2</div>
+      <div id="box3">3</div>
+    </div>
+    <h2>Box Model2</h2>
+    <div id="parent2">
+      <span id="span1">Hello</span>
+      <span id="span2">World</span>
+      <span id="span3">Technology</span>
+    </div>
+  </body>
+</html>
